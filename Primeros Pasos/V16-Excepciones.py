@@ -1,5 +1,4 @@
 #Podemos capturar varias excepciones poniendo una debajo de la otra de la siguiente manera.
-#Lo que pongamos dentro de la clausala finally se va a ejecutar salte o no una excepcion.
 
 def division() :
 
@@ -13,7 +12,6 @@ def division() :
     except ValueError :
         print("Ingrese valores validos.")
     finally : 
-        print("Ejecucion finalizada.")
-    
+        print("Ejecucion finalizada.") #Lo que pongamos dentro de la clausala finally se va a ejecutar salte o no una excepcion.
 
 division()
